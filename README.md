@@ -49,7 +49,7 @@ Drag the contents of the `VHMessengerKit` folder into your Xcode Project.
 Add the following to your project's Podfile.
 
 ```ruby
-pod 'VHMessengerKit' , :git => 'https://github.com/VivusHub/VHMessengerKit'
+pod 'VHMessengerKit', :git => 'https://github.com/VivusHub/VHMessengerKit'
 ```
 
 ## Credits
