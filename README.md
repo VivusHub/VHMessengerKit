@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="readme-resources/VHMessengerKit.png" style="max-height: 61px;" alt="MessengerKit for iOS">
+    <img src="readme-resources/VHMessengerKit.png" style="max-height: 61px;" alt="VHMessengerKit for iOS">
 </p>
 
 <p align="center">
@@ -32,9 +32,9 @@ The framework is actively being used and maintained in one of our apps, [Vivus](
 
 ## Documentation
 
-- [Getting Started](https://github.com/steve228uk/MessengerKit/wiki/Getting-Started)
-- [Customising an Existing Style](https://github.com/steve228uk/MessengerKit/wiki/Customising-an-Existing-Style)
-- [Creating a Custom Style](https://github.com/steve228uk/MessengerKit/wiki/Creating-a-Custom-Style)
+- [Getting Started](https://github.com/VivusHub/VHMessengerKit/wiki/Getting-Started)
+- [Customising an Existing Style](https://github.com/VivusHub/VHMessengerKit/wiki/Customising-an-Existing-Style)
+- [Creating a Custom Style](https://github.com/VivusHub/VHMessengerKit/wiki/Creating-a-Custom-Style)
 
 ## Installation
 
@@ -57,6 +57,11 @@ pod 'VHMessengerKit', :git => 'https://github.com/VivusHub/VHMessengerKit'
 * Updated by [@VivusHub](https://twitter.com/vivushub).
 * It makes use of [KeyboardUtility](https://github.com/JunyuKuang/KeyboardUtility) by [@JunyuKuang](https://github.com/JunyuKuang).
 * Thanks to [@steve228uk MessengerKit](https://github.com/steve228uk/MessengerKit) for which this project is based upon.
+
+## Support
+<a href="https://www.buymeacoffee.com/VivusHub">
+    <img src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-2.svg" alt="VHMessengerKit Examples">
+</a>
 
 ## License
 Extract from [Vivus Hub commercially available contents agreement](https://www.vivushub.com/vivus/interface/terms):
