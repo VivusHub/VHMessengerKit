@@ -60,7 +60,7 @@ pod 'VHMessengerKit', :git => 'https://github.com/VivusHub/VHMessengerKit'
 
 ## Support
 <a href="https://www.buymeacoffee.com/VivusHub">
-    <img src="https://datagenetics.com/blog/march32021/title.jpg" alt="VHMessengerKit Examples">
+    <img src="https://helloimjessa.files.wordpress.com/2021/06/bmc-button.png" width="180px" height="50px" alt="VHMessengerKit Examples">
 </a>
 
 ## License
