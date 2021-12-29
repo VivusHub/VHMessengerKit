@@ -15,6 +15,8 @@ class MessagesTableViewController: UITableViewController {
     let travamigosController = UINavigationController(rootViewController: TravamigosViewController())
     
     let customController = UINavigationController(rootViewController: CustomStyleViewController())
+    
+    let VHMsgController = UINavigationController(rootViewController: VivusMessageViewController())
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +25,7 @@ class MessagesTableViewController: UITableViewController {
         // This is only required in split view and if we weren't manually loading it would be fine.
         iMessageController.viewControllers.first?.loadViewIfNeeded()
         travamigosController.viewControllers.first?.loadViewIfNeeded()
+        VHMsgController.viewControllers.first?.loadViewIfNeeded()
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -35,6 +38,9 @@ class MessagesTableViewController: UITableViewController {
             splitViewController?.showDetailViewController(travamigosController, sender: nil)
             break
         case 2:
+            splitViewController?.showDetailViewController(VHMsgController, sender: nil)
+            break
+        case 3:
             splitViewController?.showDetailViewController(customController, sender: nil)
             break
         default:

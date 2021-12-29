@@ -25,6 +25,7 @@
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		F660E8EA27539D1E00D5F9E6 /* VivusHubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F660E8E927539D1E00D5F9E6 /* VivusHubViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		DBB7F97C6BB0BCBFF7D581CE /* Pods-MessengerKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessengerKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MessengerKit_Example/Pods-MessengerKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DE0D3BDE244C1084E7FD6602 /* Pods_MessengerKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessengerKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E453915F7A2A13D0F3B7090C /* Pods-VHMessengerKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VHMessengerKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VHMessengerKit_Example/Pods-VHMessengerKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F660E8E927539D1E00D5F9E6 /* VivusHubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VivusHubViewController.swift; sourceTree = "<group>"; };
 		FCC5B078FE23390D836F96D4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				28C3375120D1550D00ED6803 /* MessagesTableViewController.swift */,
+				F660E8E927539D1E00D5F9E6 /* VivusHubViewController.swift */,
 				28C3375320D1550D00ED6803 /* SplitViewController.swift */,
 				28C3375220D1550D00ED6803 /* TravamigosViewController.swift */,
 				28C3375420D1550D00ED6803 /* ViewController.swift */,
@@ -209,9 +212,10 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = VH;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = CocoaPods;
+				ORGANIZATIONNAME = "Vivus Hub LTD";
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -305,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2826279020D27C910069D966 /* CustomBubble.swift in Sources */,
+				F660E8EA27539D1E00D5F9E6 /* VivusHubViewController.swift in Sources */,
 				28C3375820D1550D00ED6803 /* ViewController.swift in Sources */,
 				2826278D20D27C440069D966 /* CustomOutgoingTextCell.swift in Sources */,
 				28C3375620D1550D00ED6803 /* TravamigosViewController.swift in Sources */,

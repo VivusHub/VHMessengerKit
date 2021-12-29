@@ -59,7 +59,7 @@ pod 'VHMessengerKit', :git => 'https://github.com/VivusHub/VHMessengerKit'
 * Thanks to [@steve228uk MessengerKit](https://github.com/steve228uk/MessengerKit) for which this project is based upon.
 
 ## Support
-Support Vivus Hub open sourced projects by buying us a coffee or subscribe to a monthly plan.
+Support Vivus Hub open sourced projects by buying us a coffee or subscribing to a monthly support plan.
 <a href="https://www.buymeacoffee.com/VivusHub">
     <img src="https://helloimjessa.files.wordpress.com/2021/06/bmc-button.png" width="180px" height="50px" alt="VHMessengerKit Examples">
 </a>
