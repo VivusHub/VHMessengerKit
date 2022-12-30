@@ -1,6 +1,6 @@
 //
 //  ChatProgressBar.swift
-//  Looped
+//  Vivus Explore
 //
 //  Created by Seifeddine.Bouzid on 26/7/2021.
 //  Copyright © 2021 Vivus Hub Ltd. All rights reserved.
