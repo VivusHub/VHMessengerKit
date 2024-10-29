@@ -58,6 +58,14 @@ public struct MSGTravamigosStyle: MSGMessengerStyle {
             let bubbleSize = bubble.calculatedSize(in: CGSize(width: collectionView.bounds.width, height: .infinity))
             size = CGSize(width: collectionView.bounds.width, height: bubbleSize.height)
             
+            if message.type == "textParent" && message.childMsg != nil {
+                let childBubble = MSGTravOutgoingBubble()
+                childBubble.text = message.childMsg
+                childBubble.font = font
+                let bubbleSize = childBubble.calculatedSize(in: CGSize(width: collectionView.bounds.width, height: .infinity))
+                size.height += bubbleSize.height - 20;
+            }
+            
             break
             
             
@@ -90,6 +98,11 @@ public struct MSGTravamigosStyle: MSGMessengerStyle {
     public var incomingGradient: [CGColor] = [
         UIColor.white.cgColor,
         UIColor.white.cgColor
+    ]
+    
+    public var replyGradient: [CGColor] = [
+        UIColor.gray.cgColor,
+        UIColor.gray.cgColor
     ]
     
     /// The text for the send button

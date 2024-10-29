@@ -28,13 +28,16 @@ public class MSGMessage: NSObject{
     
     public let url: URL?
     
-    public init(id: Int, body: MSGMessageBody, user: MSGUser, sentAt: Date, type: String, url: URL? = nil) {
+    public let childMsg: String?
+    
+    public init(id: Int, body: MSGMessageBody, user: MSGUser, sentAt: Date, type: String, url: URL? = nil, childMsg: String? = nil) {
         self.id = id
         self.body = body
         self.user = user
         self.sentAt = sentAt
         self.type = type
         self.url = url
+        self.childMsg = childMsg
     }
     
 }

@@ -37,7 +37,12 @@ extension MSGMessengerViewController: UICollectionViewDataSource, UICollectionVi
         
         switch message.body {
         case .text:
-            let identifier = message.user.isSender ? "outgoingText" : "incomingText"
+            var identifier = message.user.isSender ? "outgoingText" : "incomingText"
+            
+            if message.type == "textParent" {
+                identifier = message.user.isSender ? "outgoingReplyText" : "incomingReplyText"
+            }
+            
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath) as! MSGMessageCell
             
             cell.delegate = self

@@ -23,6 +23,12 @@ open class MSGTravCollectionView: MSGCollectionView {
         register(UINib(nibName: "MSGIncomingTravCollectionViewCell", bundle: MessengerKit.bundle),
                  forCellWithReuseIdentifier: "incomingText")
         
+        register(UINib(nibName: "MSGOutgoingTravReplyCollectionViewCell", bundle: MessengerKit.bundle),
+                 forCellWithReuseIdentifier: "outgoingReplyText")
+        
+        register(UINib(nibName: "MSGIncomingTravReplyCollectionViewCell", bundle: MessengerKit.bundle),
+                 forCellWithReuseIdentifier: "incomingReplyText")
+        
         // Emoji
         
         register(UINib(nibName: "MSGOutgoingEmojiCollectionViewCell", bundle: MessengerKit.bundle),
