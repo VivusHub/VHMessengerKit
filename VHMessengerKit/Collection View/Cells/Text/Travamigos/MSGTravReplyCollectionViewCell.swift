@@ -45,7 +45,10 @@ open class MSGTravReplyCollectionViewCell: MSGMessageCell {
             ]
             childBubble.font = style.font
             childBubble.textColor = message.user.isSender ? style.outgoingTextColor : style.incomingTextColor
-            childBubble.gradientLayer.colors = style.replyGradient
+            childBubble.gradientLayer.colors = style.incomingGradient
+            let bgcolor = UIColor(named: "AppBrandToBlackColor")
+            childBubble.layer.borderColor = bgcolor!.cgColor
+            childBubble.layer.borderWidth = 1.0 / UIScreen.main.scale
         }
     }
     
