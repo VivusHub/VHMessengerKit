@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -25,7 +25,7 @@
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Y3t-4j-CM1" customClass="MSGTravIncomingBubble" customModule="VHMessengerKit" customModuleProvider="target">
-                        <rect key="frame" x="20" y="18" width="373" height="182"/>
+                        <rect key="frame" x="20" y="18" width="373" height="178"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                         <color key="textColor" systemColor="darkTextColor"/>
@@ -33,7 +33,7 @@
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="yesterday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqS-fI-Cev">
-                        <rect key="frame" x="40" y="204" width="43" height="11"/>
+                        <rect key="frame" x="40" y="196" width="43" height="11"/>
                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
@@ -48,10 +48,10 @@
                 <constraint firstItem="n0I-h3-efu" firstAttribute="leading" secondItem="lAq-M6-suV" secondAttribute="leading" constant="50" id="ItT-XP-vgo"/>
                 <constraint firstItem="yqS-fI-Cev" firstAttribute="leading" secondItem="tW5-Ws-Ark" secondAttribute="leading" constant="40" id="OR9-yR-llB"/>
                 <constraint firstItem="n0I-h3-efu" firstAttribute="top" secondItem="tW5-Ws-Ark" secondAttribute="top" constant="5" id="asS-XM-8Kx"/>
-                <constraint firstAttribute="bottom" secondItem="Y3t-4j-CM1" secondAttribute="bottom" id="dEs-lA-UcT"/>
-                <constraint firstAttribute="bottom" secondItem="yqS-fI-Cev" secondAttribute="bottom" constant="-15" id="eR9-9f-84F"/>
+                <constraint firstAttribute="bottom" secondItem="Y3t-4j-CM1" secondAttribute="bottom" constant="5" id="dEs-lA-UcT"/>
+                <constraint firstAttribute="bottom" secondItem="yqS-fI-Cev" secondAttribute="bottom" constant="-7" id="eR9-9f-84F"/>
                 <constraint firstItem="lAq-M6-suV" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="n0I-h3-efu" secondAttribute="trailing" constant="30" id="l3m-cC-Hss"/>
-                <constraint firstItem="Y3t-4j-CM1" firstAttribute="top" secondItem="n0I-h3-efu" secondAttribute="bottom" constant="-20" id="mcv-Y1-zW1"/>
+                <constraint firstItem="Y3t-4j-CM1" firstAttribute="top" secondItem="n0I-h3-efu" secondAttribute="bottom" constant="-15" id="mcv-Y1-zW1"/>
             </constraints>
             <size key="customSize" width="413" height="200"/>
             <connections>

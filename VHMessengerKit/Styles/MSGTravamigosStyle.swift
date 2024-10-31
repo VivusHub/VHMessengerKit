@@ -63,7 +63,7 @@ public struct MSGTravamigosStyle: MSGMessengerStyle {
                 childBubble.text = message.childMsg
                 childBubble.font = font
                 let bubbleSize = childBubble.calculatedSize(in: CGSize(width: collectionView.bounds.width, height: .infinity))
-                size.height += bubbleSize.height - 20;
+                size.height += bubbleSize.height - 10;
             }
             
             break

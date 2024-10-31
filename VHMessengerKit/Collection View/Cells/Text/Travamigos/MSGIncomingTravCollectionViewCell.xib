@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,7 +18,7 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Y3t-4j-CM1" customClass="MSGTravIncomingBubble" customModule="VHMessengerKit" customModuleProvider="target">
-                        <rect key="frame" x="20" y="0.0" width="413" height="87"/>
+                        <rect key="frame" x="20" y="0.0" width="413" height="82"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="413" id="rsB-NG-aOQ"/>
@@ -29,7 +29,7 @@
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="yesterday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3it-2k-Es2">
-                        <rect key="frame" x="40" y="91" width="43" height="11"/>
+                        <rect key="frame" x="40" y="83" width="43" height="11"/>
                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
@@ -40,8 +40,8 @@
             <constraints>
                 <constraint firstItem="Y3t-4j-CM1" firstAttribute="leading" secondItem="tW5-Ws-Ark" secondAttribute="leading" constant="20" id="A0T-9s-kb7"/>
                 <constraint firstItem="3it-2k-Es2" firstAttribute="leading" secondItem="tW5-Ws-Ark" secondAttribute="leading" constant="40" id="GGe-rf-pod"/>
-                <constraint firstAttribute="bottom" secondItem="3it-2k-Es2" secondAttribute="bottom" constant="-15" id="Htn-gC-ki7"/>
-                <constraint firstAttribute="bottom" secondItem="Y3t-4j-CM1" secondAttribute="bottom" id="dEs-lA-UcT"/>
+                <constraint firstAttribute="bottom" secondItem="3it-2k-Es2" secondAttribute="bottom" constant="-7" id="Htn-gC-ki7"/>
+                <constraint firstAttribute="bottom" secondItem="Y3t-4j-CM1" secondAttribute="bottom" constant="5" id="dEs-lA-UcT"/>
                 <constraint firstItem="Y3t-4j-CM1" firstAttribute="top" secondItem="tW5-Ws-Ark" secondAttribute="top" id="dkW-3x-wLP"/>
             </constraints>
             <size key="customSize" width="413" height="87"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,7 +24,7 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="yesterday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ru5-4g-DIh">
-                        <rect key="frame" x="40" y="180" width="43" height="11"/>
+                        <rect key="frame" x="40" y="172" width="43" height="11"/>
                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
@@ -37,7 +37,7 @@
                 <constraint firstAttribute="bottom" secondItem="lTb-3z-uN0" secondAttribute="bottom" id="CmA-xR-jvU"/>
                 <constraint firstItem="lTb-3z-uN0" firstAttribute="top" secondItem="rWJ-Ue-VCr" secondAttribute="top" id="OVt-to-5Zg"/>
                 <constraint firstItem="Ru5-4g-DIh" firstAttribute="leading" secondItem="rWJ-Ue-VCr" secondAttribute="leading" constant="40" id="Vw1-ve-R6j"/>
-                <constraint firstAttribute="bottom" secondItem="Ru5-4g-DIh" secondAttribute="bottom" constant="-15" id="s9q-ah-d5N"/>
+                <constraint firstAttribute="bottom" secondItem="Ru5-4g-DIh" secondAttribute="bottom" constant="-7" id="s9q-ah-d5N"/>
             </constraints>
             <size key="customSize" width="269" height="176"/>
             <connections>

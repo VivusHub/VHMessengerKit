@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -26,7 +26,7 @@
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iP3-kn-N1L" customClass="MSGTravOutgoingBubble" customModule="VHMessengerKit" customModuleProvider="target">
-                        <rect key="frame" x="20" y="16" width="373" height="128"/>
+                        <rect key="frame" x="20" y="16" width="373" height="124"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -34,7 +34,7 @@
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="yesterday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbx-x2-PJZ">
-                        <rect key="frame" x="330" y="148" width="43" height="11"/>
+                        <rect key="frame" x="330" y="140" width="43" height="11"/>
                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
@@ -47,12 +47,12 @@
                 <constraint firstItem="iP3-kn-N1L" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rMi-IG-xwc" secondAttribute="leading" constant="20" id="Dvb-fw-L1v"/>
                 <constraint firstAttribute="trailing" secondItem="jLU-mh-Fsi" secondAttribute="trailing" constant="50" id="HaY-vS-kam"/>
                 <constraint firstAttribute="trailing" secondItem="iP3-kn-N1L" secondAttribute="trailing" constant="20" id="IFj-uG-g7m"/>
-                <constraint firstAttribute="bottom" secondItem="gbx-x2-PJZ" secondAttribute="bottom" constant="-15" id="LF9-W1-5te"/>
-                <constraint firstItem="iP3-kn-N1L" firstAttribute="top" secondItem="jLU-mh-Fsi" secondAttribute="bottom" constant="-20" id="OVB-kC-SQb"/>
+                <constraint firstAttribute="bottom" secondItem="gbx-x2-PJZ" secondAttribute="bottom" constant="-7" id="LF9-W1-5te"/>
+                <constraint firstItem="iP3-kn-N1L" firstAttribute="top" secondItem="jLU-mh-Fsi" secondAttribute="bottom" constant="-15" id="OVB-kC-SQb"/>
                 <constraint firstItem="jLU-mh-Fsi" firstAttribute="top" secondItem="rMi-IG-xwc" secondAttribute="top" constant="5" id="YOL-Qp-IYT"/>
                 <constraint firstAttribute="trailing" secondItem="gbx-x2-PJZ" secondAttribute="trailing" constant="40" id="p6Y-Fi-KxJ"/>
                 <constraint firstItem="jLU-mh-Fsi" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qUQ-cr-92P" secondAttribute="leading" constant="30" id="vYP-LP-prK"/>
-                <constraint firstAttribute="bottom" secondItem="iP3-kn-N1L" secondAttribute="bottom" id="yTV-yc-by2"/>
+                <constraint firstAttribute="bottom" secondItem="iP3-kn-N1L" secondAttribute="bottom" constant="5" id="yTV-yc-by2"/>
             </constraints>
             <size key="customSize" width="413" height="144"/>
             <connections>

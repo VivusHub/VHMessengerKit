@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,7 +24,7 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="yesterday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBs-tk-D1w">
-                        <rect key="frame" x="186" y="180" width="43" height="11"/>
+                        <rect key="frame" x="186" y="172" width="43" height="11"/>
                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
@@ -33,7 +33,7 @@
             </view>
             <viewLayoutGuide key="safeArea" id="DGD-7c-c5N"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="NBs-tk-D1w" secondAttribute="bottom" constant="-15" id="Xq2-1c-peI"/>
+                <constraint firstAttribute="bottom" secondItem="NBs-tk-D1w" secondAttribute="bottom" constant="-7" id="Xq2-1c-peI"/>
                 <constraint firstItem="cFp-Pv-V22" firstAttribute="top" secondItem="nw2-Kp-ZmF" secondAttribute="top" id="Yn9-Go-GO4"/>
                 <constraint firstAttribute="trailing" secondItem="NBs-tk-D1w" secondAttribute="trailing" constant="40" id="g97-f0-wSc"/>
                 <constraint firstAttribute="bottom" secondItem="cFp-Pv-V22" secondAttribute="bottom" id="pFv-QJ-ceh"/>
