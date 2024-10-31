@@ -18,8 +18,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="413" height="144"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" text="Lorem ipsum dolor sit er elit " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jLU-mh-Fsi" customClass="MSGTravOutgoingBubble" customModule="VHMessengerKit" customModuleProvider="target">
-                        <rect key="frame" x="165" y="5" width="198" height="33"/>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="1000" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" text="Lorem ipsum dolor sit er elit " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jLU-mh-Fsi" customClass="MSGTravOutgoingBubble" customModule="VHMessengerKit" customModuleProvider="target">
+                        <rect key="frame" x="10" y="5" width="373" height="33"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="textColor" systemColor="labelColor"/>
                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
@@ -45,14 +45,14 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="iP3-kn-N1L" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rMi-IG-xwc" secondAttribute="leading" constant="20" id="Dvb-fw-L1v"/>
-                <constraint firstAttribute="trailing" secondItem="jLU-mh-Fsi" secondAttribute="trailing" constant="50" id="HaY-vS-kam"/>
+                <constraint firstAttribute="trailing" secondItem="jLU-mh-Fsi" secondAttribute="trailing" constant="30" id="HaY-vS-kam"/>
                 <constraint firstAttribute="trailing" secondItem="iP3-kn-N1L" secondAttribute="trailing" constant="20" id="IFj-uG-g7m"/>
                 <constraint firstAttribute="bottom" secondItem="gbx-x2-PJZ" secondAttribute="bottom" constant="-7" id="LF9-W1-5te"/>
                 <constraint firstItem="iP3-kn-N1L" firstAttribute="top" secondItem="jLU-mh-Fsi" secondAttribute="bottom" constant="-15" id="OVB-kC-SQb"/>
                 <constraint firstItem="jLU-mh-Fsi" firstAttribute="top" secondItem="rMi-IG-xwc" secondAttribute="top" constant="5" id="YOL-Qp-IYT"/>
                 <constraint firstAttribute="trailing" secondItem="gbx-x2-PJZ" secondAttribute="trailing" constant="40" id="p6Y-Fi-KxJ"/>
-                <constraint firstItem="jLU-mh-Fsi" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qUQ-cr-92P" secondAttribute="leading" constant="30" id="vYP-LP-prK"/>
                 <constraint firstAttribute="bottom" secondItem="iP3-kn-N1L" secondAttribute="bottom" constant="5" id="yTV-yc-by2"/>
+                <constraint firstItem="jLU-mh-Fsi" firstAttribute="leading" secondItem="iP3-kn-N1L" secondAttribute="leading" constant="-10" id="zUR-w0-9P1"/>
             </constraints>
             <size key="customSize" width="413" height="144"/>
             <connections>

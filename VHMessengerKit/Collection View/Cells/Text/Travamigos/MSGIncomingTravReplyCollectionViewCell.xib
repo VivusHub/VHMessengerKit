@@ -17,8 +17,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="413" height="200"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" text="Lorem ipsum dolor sit er elit lamet, con" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="n0I-h3-efu" customClass="MSGTravIncomingBubble" customModule="VHMessengerKit" customModuleProvider="target">
-                        <rect key="frame" x="50" y="5" width="267" height="33"/>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="1000" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" text="Lorem ipsum dolor sit er elit lamet, con" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="n0I-h3-efu" customClass="MSGTravIncomingBubble" customModule="VHMessengerKit" customModuleProvider="target">
+                        <rect key="frame" x="30" y="5" width="373" height="33"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="textColor" systemColor="darkTextColor"/>
                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
@@ -45,12 +45,12 @@
             <constraints>
                 <constraint firstItem="Y3t-4j-CM1" firstAttribute="leading" secondItem="tW5-Ws-Ark" secondAttribute="leading" constant="20" id="A0T-9s-kb7"/>
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Y3t-4j-CM1" secondAttribute="trailing" constant="20" id="Igp-pS-Ps7"/>
-                <constraint firstItem="n0I-h3-efu" firstAttribute="leading" secondItem="lAq-M6-suV" secondAttribute="leading" constant="50" id="ItT-XP-vgo"/>
+                <constraint firstItem="n0I-h3-efu" firstAttribute="leading" secondItem="lAq-M6-suV" secondAttribute="leading" constant="30" id="ItT-XP-vgo"/>
+                <constraint firstItem="n0I-h3-efu" firstAttribute="trailing" secondItem="Y3t-4j-CM1" secondAttribute="trailing" constant="10" id="N9t-Sg-z3U"/>
                 <constraint firstItem="yqS-fI-Cev" firstAttribute="leading" secondItem="tW5-Ws-Ark" secondAttribute="leading" constant="40" id="OR9-yR-llB"/>
                 <constraint firstItem="n0I-h3-efu" firstAttribute="top" secondItem="tW5-Ws-Ark" secondAttribute="top" constant="5" id="asS-XM-8Kx"/>
                 <constraint firstAttribute="bottom" secondItem="Y3t-4j-CM1" secondAttribute="bottom" constant="5" id="dEs-lA-UcT"/>
                 <constraint firstAttribute="bottom" secondItem="yqS-fI-Cev" secondAttribute="bottom" constant="-7" id="eR9-9f-84F"/>
-                <constraint firstItem="lAq-M6-suV" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="n0I-h3-efu" secondAttribute="trailing" constant="30" id="l3m-cC-Hss"/>
                 <constraint firstItem="Y3t-4j-CM1" firstAttribute="top" secondItem="n0I-h3-efu" secondAttribute="bottom" constant="-15" id="mcv-Y1-zW1"/>
             </constraints>
             <size key="customSize" width="413" height="200"/>
