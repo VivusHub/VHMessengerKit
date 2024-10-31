@@ -10,6 +10,8 @@ import UIKit
 
 open class MSGMessageCell: UICollectionViewCell {
     
+    @IBOutlet open weak var dateLabel: UILabel?
+    
     /// The message the cell is displaying
     open var message: MSGMessage?
     

@@ -56,7 +56,7 @@ public struct MSGIMessageStyle: MSGMessengerStyle {
             bubble.text = body
             bubble.font = font
             let bubbleSize = bubble.calculatedSize(in: CGSize(width: collectionView.bounds.width, height: .infinity))
-            size = CGSize(width: collectionView.bounds.width, height: bubbleSize.height)
+            size = CGSize(width: collectionView.bounds.width, height: bubbleSize.height + 10)
             
             break
             
