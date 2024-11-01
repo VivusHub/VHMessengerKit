@@ -60,6 +60,8 @@ class MSGTravOutgoingBubble: UITextView {
         
         layer.cornerRadius = 18
         layer.masksToBounds = true
+        layer.borderColor = UIColor.lightGray.cgColor
+        layer.borderWidth = 1.0 / UIScreen.main.scale
         
         isEditable = false
         isSelectable = true // TODO: Check that links are tappable
