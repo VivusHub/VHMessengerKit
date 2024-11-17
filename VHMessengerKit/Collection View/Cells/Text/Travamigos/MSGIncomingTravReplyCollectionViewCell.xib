@@ -52,6 +52,7 @@
                 <constraint firstItem="n0I-h3-efu" firstAttribute="top" secondItem="tW5-Ws-Ark" secondAttribute="top" constant="5" id="asS-XM-8Kx"/>
                 <constraint firstAttribute="bottom" secondItem="Y3t-4j-CM1" secondAttribute="bottom" constant="5" id="dEs-lA-UcT"/>
                 <constraint firstAttribute="bottom" secondItem="yqS-fI-Cev" secondAttribute="bottom" constant="-7" id="eR9-9f-84F"/>
+                <constraint firstItem="lAq-M6-suV" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="n0I-h3-efu" secondAttribute="trailing" constant="10" id="hPE-Da-g9E"/>
             </constraints>
             <size key="customSize" width="413" height="260"/>
             <connections>
