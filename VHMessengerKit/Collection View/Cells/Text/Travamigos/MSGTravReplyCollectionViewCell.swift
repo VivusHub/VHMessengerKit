@@ -10,8 +10,6 @@ import UIKit
 
 open class MSGTravReplyCollectionViewCell: MSGMessageCell {
     
-    @IBOutlet weak var bubbleWidthConstraint: NSLayoutConstraint!
-    
     @IBOutlet weak var childBubble: MSGTravOutgoingBubble!
     @IBOutlet weak var bubble: MSGTravOutgoingBubble!
     

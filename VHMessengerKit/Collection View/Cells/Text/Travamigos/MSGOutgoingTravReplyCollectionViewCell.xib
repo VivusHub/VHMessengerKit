@@ -12,21 +12,21 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="outgoingReplyText" id="rMi-IG-xwc" customClass="MSGTravReplyCollectionViewCell" customModule="VHMessengerKit" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="413" height="144"/>
+            <rect key="frame" x="0.0" y="0.0" width="413" height="128"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="413" height="144"/>
+                <rect key="frame" x="0.0" y="0.0" width="413" height="128"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="1000" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" text="Lorem ipsum dolor sit er elit " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jLU-mh-Fsi" customClass="MSGTravOutgoingBubble" customModule="VHMessengerKit" customModuleProvider="target">
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="999" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" text="Lorem ipsum dolor sit er elit " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jLU-mh-Fsi" customClass="MSGTravOutgoingBubble" customModule="VHMessengerKit" customModuleProvider="target">
                         <rect key="frame" x="10" y="5" width="373" height="33"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="textColor" systemColor="labelColor"/>
                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
-                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iP3-kn-N1L" customClass="MSGTravOutgoingBubble" customModule="VHMessengerKit" customModuleProvider="target">
-                        <rect key="frame" x="20" y="16" width="373" height="124"/>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iP3-kn-N1L" customClass="MSGTravOutgoingBubble" customModule="VHMessengerKit" customModuleProvider="target">
+                        <rect key="frame" x="20" y="23" width="373" height="100"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -34,7 +34,7 @@
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="yesterday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbx-x2-PJZ">
-                        <rect key="frame" x="330" y="140" width="43" height="11"/>
+                        <rect key="frame" x="330" y="124" width="43" height="11"/>
                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
@@ -48,19 +48,20 @@
                 <constraint firstAttribute="trailing" secondItem="jLU-mh-Fsi" secondAttribute="trailing" constant="30" id="HaY-vS-kam"/>
                 <constraint firstAttribute="trailing" secondItem="iP3-kn-N1L" secondAttribute="trailing" constant="20" id="IFj-uG-g7m"/>
                 <constraint firstAttribute="bottom" secondItem="gbx-x2-PJZ" secondAttribute="bottom" constant="-7" id="LF9-W1-5te"/>
-                <constraint firstItem="iP3-kn-N1L" firstAttribute="top" secondItem="jLU-mh-Fsi" secondAttribute="bottom" constant="-15" id="OVB-kC-SQb"/>
                 <constraint firstItem="jLU-mh-Fsi" firstAttribute="top" secondItem="rMi-IG-xwc" secondAttribute="top" constant="5" id="YOL-Qp-IYT"/>
+                <constraint firstItem="iP3-kn-N1L" firstAttribute="top" secondItem="jLU-mh-Fsi" secondAttribute="bottom" constant="-15" id="egU-3E-atG"/>
+                <constraint firstItem="jLU-mh-Fsi" firstAttribute="width" relation="greaterThanOrEqual" secondItem="iP3-kn-N1L" secondAttribute="width" id="okn-s1-fRh"/>
                 <constraint firstAttribute="trailing" secondItem="gbx-x2-PJZ" secondAttribute="trailing" constant="40" id="p6Y-Fi-KxJ"/>
                 <constraint firstAttribute="bottom" secondItem="iP3-kn-N1L" secondAttribute="bottom" constant="5" id="yTV-yc-by2"/>
-                <constraint firstItem="jLU-mh-Fsi" firstAttribute="leading" secondItem="iP3-kn-N1L" secondAttribute="leading" constant="-10" id="zUR-w0-9P1"/>
+                <constraint firstItem="jLU-mh-Fsi" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qUQ-cr-92P" secondAttribute="leading" constant="10" id="zy9-Xp-NGR"/>
             </constraints>
-            <size key="customSize" width="413" height="144"/>
+            <size key="customSize" width="413" height="150"/>
             <connections>
                 <outlet property="bubble" destination="iP3-kn-N1L" id="gKe-v9-vgx"/>
                 <outlet property="childBubble" destination="jLU-mh-Fsi" id="rxr-zN-pYz"/>
                 <outlet property="dateLabel" destination="gbx-x2-PJZ" id="As8-Xh-DXY"/>
             </connections>
-            <point key="canvasLocation" x="-5.5999999999999996" y="-49.475262368815599"/>
+            <point key="canvasLocation" x="-5.5999999999999996" y="-46.776611694152926"/>
         </collectionViewCell>
     </objects>
     <resources>

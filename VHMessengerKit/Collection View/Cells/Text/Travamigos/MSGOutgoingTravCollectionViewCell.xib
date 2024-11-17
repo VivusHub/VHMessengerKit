@@ -17,12 +17,9 @@
                 <rect key="frame" x="0.0" y="0.0" width="413" height="87"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iP3-kn-N1L" customClass="MSGTravOutgoingBubble" customModule="VHMessengerKit" customModuleProvider="target">
-                        <rect key="frame" x="-20" y="0.0" width="413" height="82"/>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iP3-kn-N1L" customClass="MSGTravOutgoingBubble" customModule="VHMessengerKit" customModuleProvider="target">
+                        <rect key="frame" x="20" y="0.0" width="373" height="82"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="413" id="wFW-RM-OON"/>
-                        </constraints>
                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
@@ -39,6 +36,7 @@
             <viewLayoutGuide key="safeArea" id="qUQ-cr-92P"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="iP3-kn-N1L" secondAttribute="trailing" constant="20" id="IFj-uG-g7m"/>
+                <constraint firstItem="iP3-kn-N1L" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rMi-IG-xwc" secondAttribute="leading" constant="20" id="Toc-Qs-Vw2"/>
                 <constraint firstItem="iP3-kn-N1L" firstAttribute="top" secondItem="rMi-IG-xwc" secondAttribute="top" id="VLB-PC-ZHr"/>
                 <constraint firstAttribute="bottom" secondItem="bqe-53-Lmm" secondAttribute="bottom" constant="-7" id="eq9-qU-7vW"/>
                 <constraint firstAttribute="trailing" secondItem="bqe-53-Lmm" secondAttribute="trailing" constant="40" id="rzp-qs-CHa"/>
@@ -47,7 +45,6 @@
             <size key="customSize" width="413" height="87"/>
             <connections>
                 <outlet property="bubble" destination="iP3-kn-N1L" id="gKe-v9-vgx"/>
-                <outlet property="bubbleWidthConstraint" destination="wFW-RM-OON" id="dgY-ky-cHC"/>
                 <outlet property="dateLabel" destination="bqe-53-Lmm" id="BWp-YM-UZ3"/>
             </connections>
             <point key="canvasLocation" x="-5.5999999999999996" y="-75.112443778110944"/>

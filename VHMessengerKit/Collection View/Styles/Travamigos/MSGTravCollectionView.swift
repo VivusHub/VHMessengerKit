@@ -10,8 +10,25 @@ import UIKit
 
 open class MSGTravCollectionView: MSGCollectionView {
 
+    static var textOutgoingCell: MSGTravCollectionViewCell?
+    
+    static var textIncomingCell: MSGTravCollectionViewCell?
+    
+    static var textOutgoingReplyCell: MSGTravReplyCollectionViewCell?
+    
+    static var textIncomingReplyCell: MSGTravReplyCollectionViewCell?
+    
+    
     override open func registerCells() {
         super.registerCells()
+        
+        MSGTravCollectionView.textOutgoingCell = UINib(nibName: "MSGOutgoingTravCollectionViewCell", bundle: MessengerKit.bundle).instantiate(withOwner: nil).first as? MSGTravCollectionViewCell
+        
+        MSGTravCollectionView.textIncomingCell = UINib(nibName: "MSGIncomingTravCollectionViewCell", bundle: MessengerKit.bundle).instantiate(withOwner: nil).first as? MSGTravCollectionViewCell
+        
+        MSGTravCollectionView.textOutgoingReplyCell = UINib(nibName: "MSGOutgoingTravReplyCollectionViewCell", bundle: MessengerKit.bundle).instantiate(withOwner: nil).first as? MSGTravReplyCollectionViewCell
+        
+        MSGTravCollectionView.textIncomingReplyCell = UINib(nibName: "MSGIncomingTravReplyCollectionViewCell", bundle: MessengerKit.bundle).instantiate(withOwner: nil).first as? MSGTravReplyCollectionViewCell
         
         collectionViewLayout = MSGTravCollectionViewFlowLayout()
         

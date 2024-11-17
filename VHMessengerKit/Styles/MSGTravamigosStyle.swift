@@ -52,19 +52,27 @@ public struct MSGTravamigosStyle: MSGMessengerStyle {
         switch message.body {
         case .text(let body):
             
-            let bubble = MSGTravOutgoingBubble()
-            bubble.text = body
-            bubble.font = font
-            let bubbleSize = bubble.calculatedSize(in: CGSize(width: collectionView.bounds.width, height: .infinity))
-            size = CGSize(width: collectionView.bounds.width, height: bubbleSize.height)
+            var cell: UICollectionViewCell?
             
             if message.type == "textParent" && message.childMsg != nil {
-                let childBubble = MSGTravOutgoingBubble()
-                childBubble.text = message.childMsg
-                childBubble.font = font
-                let bubbleSize = childBubble.calculatedSize(in: CGSize(width: collectionView.bounds.width, height: .infinity))
-                size.height += bubbleSize.height - 10;
+                
+                let replyCell = message.user.isSender ? MSGTravCollectionView.textOutgoingReplyCell : MSGTravCollectionView.textIncomingReplyCell
+                
+                replyCell?.bubble.text = body
+                replyCell?.bubble.font = font
+                replyCell?.childBubble.text = message.childMsg
+                replyCell?.childBubble.font = font
+                cell = replyCell
+                
+            } else {
+                let normalTextCell = message.user.isSender ? MSGTravCollectionView.textOutgoingCell : MSGTravCollectionView.textIncomingCell
+                
+                normalTextCell?.bubble.text = body
+                normalTextCell?.bubble.font = font
+                cell = normalTextCell
             }
+            
+            size = cell?.systemLayoutSizeFitting(UIScreen.main.bounds.size, withHorizontalFittingPriority: .required, verticalFittingPriority: .defaultLow) ?? .zero
             
             break
             

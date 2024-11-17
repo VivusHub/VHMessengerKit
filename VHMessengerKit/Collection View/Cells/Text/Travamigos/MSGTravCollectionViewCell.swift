@@ -10,8 +10,6 @@ import UIKit
 
 open class MSGTravCollectionViewCell: MSGMessageCell {
     
-    @IBOutlet weak var bubbleWidthConstraint: NSLayoutConstraint!
-    
     @IBOutlet weak var bubble: MSGTravOutgoingBubble!
     
     override open var message: MSGMessage? {
@@ -39,8 +37,6 @@ open class MSGTravCollectionViewCell: MSGMessageCell {
     
     override open func layoutSubviews() {
         super.layoutSubviews()
-        let bubbleSize = bubble.calculatedSize(in: bounds.size)
-        bubbleWidthConstraint.constant = bubbleSize.width
     }
     
     override open func awakeFromNib() {
